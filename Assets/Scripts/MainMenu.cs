@@ -19,6 +19,17 @@ public class MainMenu : MonoBehaviour
         Application.Quit();
     }
 
+    //Settings Button & Panel
+    [SerializeField] private GameObject settingsPanel;
+
+    public void OpenSettings() {
+        settingsPanel.SetActive(true);
+    }
+
+    public void CloseSettings() {
+        settingsPanel.SetActive(false);
+    }
+
     // Update is called once per frame
     void Update()
     {
