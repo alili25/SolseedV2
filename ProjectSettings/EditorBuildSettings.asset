@@ -7,10 +7,16 @@ EditorBuildSettings:
   m_Scenes:
   - enabled: 0
     path: Assets/Scenes/MainScene.unity
-    guid: 8c9cfa26abfee488c85f1582747f6a02
+    guid: 2178af9054531412db09273c07fe5907
   - enabled: 1
     path: Assets/Scenes/MainMenuScene.unity
     guid: 05c0e8293f08b41f3865e3312f6b16eb
+  - enabled: 1
+    path: Assets/Scenes/DoodleJump.unity
+    guid: 1b42817a96c1646238e1236fc908ad63
+  - enabled: 0
+    path: Assets/Scenes2/WinScene.unity
+    guid: 6cb7e9b5246266647ae510bccd692a89
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
